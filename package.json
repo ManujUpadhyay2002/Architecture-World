@@ -1,0 +1,27 @@
+{
+  "name": "architecture-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ManujUpadhyay2002/Architecture-World.git"
+  },
+  "author": "Manuj Upadhyay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManujUpadhyay2002/Architecture-World/issues"
+  },
+  "homepage": "https://github.com/ManujUpadhyay2002/Architecture-World#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
