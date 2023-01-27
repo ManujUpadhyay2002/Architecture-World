@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.txt {
+    color: rgb(50, 2, 78);
+    font-family: 'Kaushan Script', cursive;
+}
+
+h1:hover {
+        color: rgb(252, 107, 107);  
+        font-family: 'Flamenco', cursive;
+        transition: 1s;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+
+
+.navbar-custom {
+    background-color: rgba(189, 190, 156, 0.815);
+}
+
+.navbar-custom .navbar-brand .world {
+    color: rgb(77, 124, 7) !important;
+}
+
+.navbar-custom .navbar-brand {
+    font-family: 'Kavoon', cursive;
+    color: rgb(153, 26, 26);
+    margin-left: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 3.5rem;
+        background-color: rgb(228, 230, 199);
+        width: 100%;
+        height: 100%;
+        transition: 0.3s;
+    }
+
+    .navbar-custom .navbar-brand {
+        margin-left: 5px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 350px 90px;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+.hid {
+    display: none;
+}
+
+.tx {
+    font-weight: bold;
+    font-family: 'Flamenco', cursive;
+}
+
+.txl {
+    font-family: 'Flamenco', cursive;
+}

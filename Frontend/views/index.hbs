@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Architecture World</title>
+    <link rel="stylesheet" href="/cssb/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/nav_foot.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    {{>nav}}
+    <div class="co">
+        <h1 class="text-center my-4 ht">Apple's Collection</h1>
+        {{#each user}}
+        {{>card imge=modelimg bt=
+        buildtype sl=sitelocation sa=sitearea des=description mpdf=modelfile dt=timestamp}}
+        {{/each}}
+    </div>
+    <script src="/script/humberg.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

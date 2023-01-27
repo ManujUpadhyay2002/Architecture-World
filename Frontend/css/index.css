@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+/* Card Style */
+#img1 {
+    display: block;
+}
+
+#img2 {
+    display: none
+}
+
+@media all and (max-width: 499px) {
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
+        display: block;
+        border-radius: 0.2cm;
+    }
+}
+
+.ht {
+    font-family: 'Saira Stencil One', cursive;
+}
+a:hover {
+    color: rgb(5, 5, 5) !important;
+    transition: 0.5s;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif !important;
+    color: rgb(100, 13, 13) !important;
+    border-color: rgb(100, 13, 13) !important;
+    border-radius: 0px !important;
+    margin-right: 30px;
+}
+
+button:hover {
+    background-color: rgb(100, 13, 13) !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 10px !important;
+    border-color: rgb(255, 255, 255) !important;
+    transition: 1s;
+
+}

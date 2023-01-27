@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/cssb/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/nav_foot.css">
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+    <div class="container my-4 mx-auto">
+        <form action="/conn" method="post" enctype="multipart/form-data">
+            <div class="mb-3 ">
+                <div class="mb-4 d-flex justify-content-center ">
+                    <h1 class="display-5 text txt">Let's Create Project</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col">
+                        <label for="bt" class="form-label tx">Building Type</label>
+                        <input type="text" id="bt" class="form-control txl" placeholder="Hotel, Complex" autocomplete="off"
+                            aria-label="Building Type" name="buildtype" required>
+                    </div>
+                    <div class="col mb-3">
+                        <label for="sl" class="form-label tx">Site Location</label>
+                        <input type="text" id="sl" class="form-control txl" placeholder="Site Location" autocomplete="off"
+                            aria-label="Site Location" name="sitelocation" required>
+                    </div>
+                </div>
+                <div class="mb-3 ">
+                    <label for="sa" class="form-label tx">Site Area</label>
+                    <input type="text" id="sa" class="form-control txl" placeholder="Site Area" aria-label="Site Area" autocomplete="off"
+                        name="sitearea" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mi" class="form-label tx">Model Image</label>
+                    <input type="file" class="form-control txl" id="mi" name="modelimg" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mf" class="form-label tx">Model File</label>
+                    <input type="file" class="form-control txl" id="mf" name="modelfile" required>
+                </div>
+                <div class="mb-3">
+                    <label for="d" class="form-label tx">Description</label>
+                    <textarea id="d" cols="15" rows="5" class="form-control txl" placeholder="Description"
+                        aria-describedby="Description" name="description"></textarea>
+                </div>
+                <div class="my-3 d-flex justify-content-center">
+                    <button type="submit" class="btn btn-outline-success tx">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
